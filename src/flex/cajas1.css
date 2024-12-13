@@ -1,0 +1,62 @@
+div {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: cursiva;
+}
+        
+.principal2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: #0b202e;
+    padding: 15px;
+}
+        
+.contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    min-height: 500px; 
+}
+        
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    border: 3px solid #fff;
+}
+
+.contenedor2 .caja {
+    width: 100px;
+    height: 100px;
+}
+        
+.caja1, .caja3 { flex: 1 1 150px; }
+.caja2 { flex: 1 1 150px; }
+.caja4 { flex: 1 1 150px; }
+.caja5 { flex: 1 1 200px; }
+.caja6 { flex: 1 1 150px; }        
+.caja8 { flex: 1 1 150px; }
+.caja9 { flex: 1 1 100px; }
+        
+.caja:nth-child(2), .caja:nth-child(8) {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+        
+.caja:nth-child(5) {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+        

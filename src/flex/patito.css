@@ -1,0 +1,88 @@
+
+        .contenedor4 {
+            background-color: #87CEEB;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .patito4 {
+            width: 180px;
+            height: 140px;
+            background-color: #ffeb3b;
+            border-radius: 100px 100px 90px 90px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .cabeza4 {
+            width: 100px;
+            height: 100px;
+            background-color: #ffeb3b;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+        }
+
+        .ojo4 {
+            width: 15px;
+            height: 15px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .ojo4.ojoIz4 {
+            top: 30px;
+            left: 25px;
+        }
+
+        .ojo4.ojoDr4 {
+            top: 30px;
+            left: 55px;
+        }
+
+    
+        .pico4 {
+            width: 40px;
+            height: 20px;
+            background-color: #ff9800;
+            border-radius: 20px 20px 0 0;
+            position: absolute;
+            top: 55px;
+            left: 30px;
+        }
+
+        .ala4 {
+            width: 60px;
+            height: 40px;
+            background-color: #ffeb3b;
+            border-radius: 50% / 60%;
+            position: absolute;
+            top: 50px;
+            right: 0;
+            transform: rotate(-20deg);
+            box-shadow: 15px 15px 15px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .pata4 {
+            width: 20px;
+            height: 30px;
+            background-color: #ff9800;
+            border-radius: 50%;
+            position: absolute;
+            bottom: -10px;
+        }
+
+        .pata4.pataIz4 {
+            left: 50px;
+        }
+
+        .pata4.pataDr4 {
+            right: 50px;
+        }

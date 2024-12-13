@@ -1,0 +1,41 @@
+.principal1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: antiquewhite;
+}
+.emoji1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  border-radius: 500px;
+}
+
+.ojo1{
+    height: 40px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+}
+.ojoDr1{
+    right: 55px;
+    top: 50px;
+}
+.ojoIz1{
+    left: 55px;
+    top: 50px;
+}
+.boca1{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+}
